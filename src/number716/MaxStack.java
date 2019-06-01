@@ -19,7 +19,7 @@ public class MaxStack {
     public int pop() {
         int res = a.get(a.size() - 1);
         a.remove(a.size() - 1);
-        max = 9999999;
+        max = -9999999;
         for(int i = 0; i < a.size(); i++)
         	max = Math.max(a.get(i), max);
         return res;
@@ -41,7 +41,7 @@ public class MaxStack {
         		break;
         	}
         }
-        max = 9999999;
+        max = -9999999;
         for(int i = 0; i < a.size(); i++)
         	max = Math.max(a.get(i), max);
         System.out.println(max + " new " + a.toString());
