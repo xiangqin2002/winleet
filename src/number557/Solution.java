@@ -4,7 +4,6 @@ public class Solution {
 	
     public String reverseWords(String s) {
     	String[] res = s.split(" ");
-    	
     	StringBuilder r = new StringBuilder("");
     	for(int i = 0; i < res.length; i++){
     		for(int j = 0; j < res[i].length() / 2; j++){
@@ -19,7 +18,6 @@ public class Solution {
     		else
     			r.append(res[i] + " ");
     	}
-    	
         return r.toString();
     }
 
