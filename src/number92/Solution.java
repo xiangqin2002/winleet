@@ -21,7 +21,6 @@ class Solution {
         		phead = pre;
         		dhead = cur;
         	}
-        	
         	if(c >= m + 1){
         		cur.next = pre;
         		pre = cur;
