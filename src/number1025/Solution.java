@@ -8,8 +8,6 @@ public class Solution {
         boolean p = true;
         boolean e = true;
         
-        // 选出任一 x，满足 0 < x < N 且 N % x == 0 。
-        //		用 N - x 替换黑板上的数字 N 。
         while(e) {
         	e = false;
 	        for(int i = 1; i < N; i++) {
